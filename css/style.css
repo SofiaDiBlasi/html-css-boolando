@@ -1,6 +1,32 @@
+/*proprietà generali*/
+
 *{
-    font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Fredoka One', cursive;
+}
+nav{
+max-width: 100%;
+background-color: #ff6900;
+margin: auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px;
+margin-bottom: 10px;
+}
+
+
+/*all about text and font*/
+
+.choiceSection{
+    text-decoration: none;
+}
+
+
+/*colori*/
+
+.colorWhite{
+    color: white;
 }
