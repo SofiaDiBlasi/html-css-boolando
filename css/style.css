@@ -17,6 +17,16 @@ padding: 10px;
 margin-bottom: 10px;
 }
 
+footer{
+    max-width: 100%;
+    background-color: #1a1a1a;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
 
 /*all about text and font*/
 
