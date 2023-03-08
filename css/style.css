@@ -70,3 +70,19 @@ a{
 .colorWhite{
     color: #e6e6e4;
 }
+
+
+.bozzaConteiner{
+    display: flex;
+    justify-content: center;
+}
+
+
+.bozza{
+    background-color: pink;
+    width: 15%;
+    height: 300px;
+    align-items: space-around;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
