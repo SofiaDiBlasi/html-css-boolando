@@ -20,13 +20,35 @@ margin-bottom: 10px;
 
 /*all about text and font*/
 
-.choiceSection{
-    text-decoration: none;
+.navSectionConteiner{
+    width: 10%;
 }
 
+.navBar{
+    margin: auto;
+}
+
+.navMargin{
+    margin-right: 5px;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.dUB{
+    font-size: .8125rem
+}
+
+/*loghi e immagini*/
+
+.boolando{
+    height: 1.5rem;
+}
 
 /*colori*/
 
 .colorWhite{
-    color: white;
+    color: #e6e6e4;
 }
