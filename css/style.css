@@ -10,19 +10,19 @@
 header{
     position: sticky;
     top: 0;
-    width: 100%
+    width: 100%;
 }
 
 
 nav{
-max-width: 100%;
-background-color: #ff6900;
-margin: auto;
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 10px;
-margin-bottom: 10px;
+    max-width: 100%;
+    background-color: #ff6900;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 
 footer{
@@ -74,6 +74,18 @@ a{
     height: 1.5rem;
 }
 
+.imgConteiner{
+    display: flex;
+    justify-content: center;
+}
+
+.foto{
+    width: 15%;
+    margin-right: 25px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
 /*colori*/
 
 .colorWhite{
@@ -85,21 +97,23 @@ a{
     display: flex;
 }
 
-.imgConteiner{
+.position{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
-
-.foto1{
+.fotoNascosta{
     width: 15%;
     margin-right: 25px;
     margin-bottom: 12px;
     margin-top: 12px;
+    display: none;
 }
 
+.foto:hover{
+    display: none;
+}
 
-.position{
-    display: flex;
-    justify-content: space-between;
+.foto:hover + .fotoNascosta{
+    display:block;
 }
